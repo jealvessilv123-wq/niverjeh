@@ -86,6 +86,24 @@ body{
 }
 
 /* FORM */
+  <section class="confirmacao">
+  <h2>Confirme sua Presença</h2>
+
+  <form id="rsvpForm">
+    <input type="text" name="nome" placeholder="Seu nome completo" required>
+
+    <select name="presenca" required>
+      <option value="">Você irá comparecer?</option>
+      <option value="Sim">Sim, estarei presente</option>
+      <option value="Não">Não poderei comparecer</option>
+    </select>
+
+    <button type="submit">Confirmar Presença</button>
+  </form>
+
+  <p id="mensagem"></p>
+</section>
+
 .form-box{
   background:white;
   max-width:520px;
